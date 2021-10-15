@@ -1,4 +1,4 @@
-### Intersectionality In Film
+# Intersectionality In Film
 
 PIC 16B Group Project: Machine learning model that provides recommendations for films representing intersectional identities.
 
