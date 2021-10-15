@@ -67,5 +67,7 @@ Results have the potential of including inaccurate, stereotypical depiction of t
 **Six Weeks (Week 9):** Model can make accurate recommendations to user based on selected parameters
 
 *Thank you!*
+
 *Ingrid Chang, Hiral Kotecha, Arsh Gupta*
+
 *Group Name: Lights, Camera, Python!!*
