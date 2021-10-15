@@ -40,3 +40,22 @@ For instance, if a user selects "Asian American" as one of the criteria that the
 
 While working on this project, we will learn how to manipulate and manage various sources of data so that we can match necessary conditions. In terms of project management, we will also learn how to manage our time, define our goals clearly, distribute work equally, and maintain transparency with each other. 
 
+## Risks
+
+1. Vague categorizations might make it challenging to associate a certain media production with a specific characteristic.
+1. Additionally, it might be difficult to acquire data about certain movies or for certain characteristics that a user might select.
+
+## Ethics
+
+***1. What groups of people have the potential to benefit from the existence of our product?***
+
+Minority groups would be able to readily and easily access a compilation of specific intersectional identities of their interest.
+
+***2. What groups of people have the potential to be harmed from the existence of our product?***
+
+Results have the potential of including inaccurate, stereotypical depiction of the identities, often reinforcing negative connotations and further the fostering of negative perceptions.
+
+***3. Will the world become an overall better place because of the existence of our product? Describe at least 2 assumptions behind your answer.***
+
+1. Seeing oneself accurately represented on screen has a net positive effect.
+1. It is currently difficult to find films and shows that match specified identities.
