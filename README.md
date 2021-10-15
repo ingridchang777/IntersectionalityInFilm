@@ -10,6 +10,7 @@ Accurate representation in media production includes not only having diverse set
 Our model would allow users to input identities of interest and receive a list of best-rated film and TV shows reflecting those identities either through the story itself or the cast and the crew involved in its creation.
 
 
+
 Planned Deliverables 
 
 We are creating a webapp that will allow users to select from a certain criteria (input), such as Asian American, LGBTQ representation, etc., and receive a list of shows and films that are best-rated matches for that criteria (output). 
