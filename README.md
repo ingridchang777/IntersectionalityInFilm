@@ -1,6 +1,6 @@
 # Intersectionality In Film
 
-PIC 16B Group Project: Machine learning model that provides recommendations for films representing intersectional identities.
+**PIC 16B Group Project:** Machine learning model that provides recommendations for films representing intersectional identities.
 
 ## Abstract
 
@@ -59,3 +59,13 @@ Results have the potential of including inaccurate, stereotypical depiction of t
 
 1. Seeing oneself accurately represented on screen has a net positive effect.
 1. It is currently difficult to find films and shows that match specified identities.
+
+## Tentative Timeline
+
+**Two Weeks (Week 5):** Set up databases and tables for different movies and characteristics
+**Four Weeks (Week 7):** Establish a pipeline to fetch results based on selected criteria
+**Six Weeks (Week 9):** Model can make accurate recommendations to user based on selected parameters
+
+*Thank you!*
+*Ingrid Chang, Hiral Kotecha, Arsh Gupta*
+*Group Name: Lights, Camera, Python!!*
