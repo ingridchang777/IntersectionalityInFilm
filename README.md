@@ -11,6 +11,9 @@ Our model would allow users to input identities of interest and receive a list o
 
 
 
+
+
+
 Planned Deliverables 
 
 We are creating a webapp that will allow users to select from a certain criteria (input), such as Asian American, LGBTQ representation, etc., and receive a list of shows and films that are best-rated matches for that criteria (output). 
