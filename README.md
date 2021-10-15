@@ -1,7 +1,7 @@
 # IntersectionalityInFilm
 PIC16B Group Project - machine learning model that provides recommendations for films representing intersectional identities.
 
-Abstract
+Abstract:
 
 Diverse representation empowers viewers who share the same identity as the movie characters and the cast, as it reflects experiences that the viewers can sympathize with.
 
@@ -14,7 +14,7 @@ Our model would allow users to input identities of interest and receive a list o
 
 
 
-Planned Deliverables 
+Planned Deliverables:
 
 We are creating a webapp that will allow users to select from a certain criteria (input), such as Asian American, LGBTQ representation, etc., and receive a list of shows and films that are best-rated matches for that criteria (output). 
 
