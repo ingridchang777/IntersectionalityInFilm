@@ -38,7 +38,16 @@ For instance, if a user selects "Asian American" as one of the criteria that the
 
 ## What We Will Learn
 
-While working on this project, we will learn how to manipulate and manage various sources of data so that we can match necessary conditions. In terms of project management, we will also learn how to manage our time, define our goals clearly, distribute work equally, and maintain transparency with each other. 
+While working on this project, we will learn how to manipulate and manage various sources of data so that we can match necessary conditions. In terms of project management, we will also learn how to manage our time, define our goals clearly, distribute work equally, and maintain transparency with each other.
+
+To elaborate on the more technical specifics, it will be our first time building and deploying a webapp using Python for which we identify the following two as the top resources:
+
+1. Django: See if this open source Python framework could be helpful in creating our data-driven model on its own website
+2. Flask: Explore this "easier to use" API to implement a web-based application through Python
+
+Another component of our project would be GUI Programming to ensure our application has decent presentability from the user side. For that, we look to explore some open source GUI frameworks such as Kivy, WxPython, PyQt, etc depending on what works best.
+
+A large part of this project revolves around data scraping on the web and hence building successful crawlers that are able to get us the information needed from relevant websites. On that end, we'll learn a lot more about working with HTML and how its used to create different type of webpages in addition to leveraging it to our benefit.
 
 ## Risks
 
