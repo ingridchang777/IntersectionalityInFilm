@@ -20,6 +20,12 @@ We are creating a webapp that will allow users to select from a certain criteria
 
 **Interface:** Web App
 
+**How our product differs from IMDB's existing search engine tool?**
+
+As great and powerful IMDB's current Advanced Title Search tool is, we observe that it only offers selection based on certain objective parameters spanning the general descripton of a movie such as genre, production company, etc. We don't see many options for users to filter their movie search based on more individualized or characteristic traits that make a movie such as LGBTQ or certain ethnic representation. This is exactly the area we look to address through our project and empower the audience to filer based on such preferences.
+
+Additionally, it will be a priority for us to ensure that our model places an equal emphasis on small scale production houses or businesses that might not garner as much mainstream media attention as some of the more popular and well established companies out there so that these small businesses aren't at a disadvantage.
+
 ## Resources Required
 
 We would be scraping our data from the Explore Keywords function on the IMDb website based on a list of keywords we have identified: https://www.imdb.com/search/keyword/
