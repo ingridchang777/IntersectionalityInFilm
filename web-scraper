@@ -1,0 +1,51 @@
+import scrapy
+
+# scrapy shell https://www.imdb.com/search/keyword/?keywords=asian-american
+
+# scrapy crawl movies -o movies.csv
+
+class MoviesSpider(scrapy.Spider):
+
+    name = "movies"
+
+    start_urls = [
+        "https://www.imdb.com/search/keyword/?keywords=asian-american"
+    ]
+
+    # def format_year(movie_years):
+    #     for i in range(len(movie_years)):
+    #         if len(movie_years[i]) == 6:
+    #             movie_years[i] = movie_years[i][1:-1]
+    #         else:
+    #             if movie_years[i][1] == "I":
+    #                 movie_years[i] = movie_years[i][-5:-1]
+    #             if movie_years[i][1] != "I":
+    #                 movie_years[i] = movie_years[i][1:-1]
+    #             else:
+    #                 continue
+    #     return movie_years
+
+    def parse(self, response):
+        
+        for movie in response.css("div.lister-item-content"):
+            
+            name = movie.css("a::text").get()
+            rating = movie.css("strong::text").get()
+            certificate = movie.css("span.certificate::text").get()
+            year = movie.css("span.lister-item-year.text-muted.unbold::text").getall()
+            # year = format_year(year)
+            year = ",".join(year)
+
+            yield {
+                "Name" : name,
+                "Rating" : rating,
+                "Year" : year,
+                "Certification" : certificate
+            }
+
+            next_page = response.css("a.lister-page-next.next-page").attrib["href"]
+
+            if next_page:
+                next_page = response.urljoin(next_page)
+
+                yield scrapy.Request(next_page, callback = self.parse)
